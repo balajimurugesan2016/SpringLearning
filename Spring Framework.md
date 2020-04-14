@@ -67,7 +67,23 @@ public ArrayList<MovieRepo> setMovieinBatch(){
 ```
 ## @Dependson annotation
 This annotation helps to determine the order in which the bean needs to be instantiated.
+```
+@Configuration
+class main_config_class{
+@Bean
+@Dependson
+public Booking createBooking{
+  return new Booking(movie);
+}
+public Movie createMovie{
+  return new Movie();
+}
+public Movie createSeats{
+  return new MSear();
+}
 
+}
+```
 
 ## Rename a file
 
@@ -196,6 +212,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDg2NDcxNCwxMTQ0NzM2Mzg3LDgyNT
+eyJoaXN0b3J5IjpbMTY4MDQ2NjYzMSwxMTQ0NzM2Mzg3LDgyNT
 M3MTM4M119
 -->
