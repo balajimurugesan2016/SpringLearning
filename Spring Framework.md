@@ -111,6 +111,8 @@ public Movie createSeats{
 }
 }
 ```
+# Instantiating  a general purpose spring command line application
+
 ## Initializing the beans in spring 
 
 ### Old Way
@@ -255,6 +257,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjQzMDQ1NiwxMTQ0NzM2Mzg3LDgyNT
+eyJoaXN0b3J5IjpbLTM3MTIzNDg0MywxMTQ0NzM2Mzg3LDgyNT
 M3MTM4M119
 -->
