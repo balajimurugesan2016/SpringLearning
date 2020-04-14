@@ -59,7 +59,10 @@ Seats seats;
 public void Movie(){
   this.initialize()
 }
-public MovieRepo  
+public MovieRepo setMovie(){
+} 
+public ArrayList<MovieRepo> setMovieinBatch(){
+} 
 }
 ```
 
@@ -190,6 +193,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzEyMDI4MCwxMTQ0NzM2Mzg3LDgyNT
-M3MTM4M119
+eyJoaXN0b3J5IjpbLTExNTE3Njg3NTcsMTE0NDczNjM4Nyw4Mj
+UzNzEzODNdfQ==
 -->
