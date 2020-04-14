@@ -39,7 +39,15 @@ In short, the  `BeanFactory`  provides the configuration framework and basic fun
 A bean can be created in multiple ways using java configuration or xml configuration. 
 
 ```
-@co
+@Configuration
+class main_config_class{
+@Bean
+public Booking createBooking{
+  return new Boo
+}
+
+
+}
 ```
 
 ## Rename a file
@@ -169,5 +177,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MTExODcxLDgyNTM3MTM4M119
+eyJoaXN0b3J5IjpbLTIwNTYxMzkwNjMsODI1MzcxMzgzXX0=
 -->
