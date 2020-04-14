@@ -121,7 +121,12 @@ ApplicationContext context = new ClassPathXmlApplicationContext("services.xml,"d
 ```
 ApplicationContext context = new AnnotationApplicationContext(Config.class);
 ```
-**Annotation configuration application context forms an umbrella on top of the bean factory and converts the application as an enterprise applicat**
+**Annotation configuration application context forms an umbrella on top of the bean factory and converts the application as an enterprise application**
+
+## Manual Instantiation
+```
+Movies mv = context.getBean(
+```
 ## Delete a file
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
@@ -245,6 +250,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUxMTUyNzksMTE0NDczNjM4Nyw4Mj
+eyJoaXN0b3J5IjpbLTIxMjA1NjM5MjgsMTE0NDczNjM4Nyw4Mj
 UzNzEzODNdfQ==
 -->
