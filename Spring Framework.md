@@ -65,6 +65,9 @@ public ArrayList<MovieRepo> setMovieinBatch(){
 } 
 }
 ```
+## @Dependson annotation
+This annotation helps to determine the order in which the bean needs to be instantiated.
+
 
 ## Rename a file
 
@@ -193,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE3Njg3NTcsMTE0NDczNjM4Nyw4Mj
-UzNzEzODNdfQ==
+eyJoaXN0b3J5IjpbMTk3MDg2NDcxNCwxMTQ0NzM2Mzg3LDgyNT
+M3MTM4M119
 -->
