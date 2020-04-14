@@ -36,7 +36,11 @@ In short, the  `BeanFactory`  provides the configuration framework and basic fun
 **@PostMapping**
 
 ## Creating a bean in Java
-A bean can 
+A bean can be created in multiple ways using java configuration or xml configuration. 
+
+```
+@co
+```
 
 ## Rename a file
 
@@ -165,5 +169,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NDg4Nzc5LDgyNTM3MTM4M119
+eyJoaXN0b3J5IjpbODQ2MTExODcxLDgyNTM3MTM4M119
 -->
