@@ -25,9 +25,8 @@ The  `org.springframework.beans`  and  `org.springframework.context`  packages a
 
 In short, the  `BeanFactory`  provides the configuration framework and basic functionality, and the  `ApplicationContext`  adds more enterprise-specific functionality. The  `ApplicationContext`  is a complete superset of the  `BeanFactory` .
 
-## Create files and folders
-
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+## Major Annotations
+**@bean**
 
 ## Switch to another file
 
@@ -160,5 +159,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk5NTM2NzddfQ==
+eyJoaXN0b3J5IjpbLTY2NDA4MTY4OCwtMTA1OTk1MzY3N119
 -->
