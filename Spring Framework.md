@@ -112,7 +112,9 @@ public Movie createSeats{
 }
 ```
 ## Initializing the beans in spring 
-
+```
+ApplicationContext context = new ClassPathXmlApplicationContext("services.)
+```
 ### Old Way
 
 
@@ -239,6 +241,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTU0OTQ5NiwxMTQ0NzM2Mzg3LDgyNT
+eyJoaXN0b3J5IjpbMTk4OTkwNjA2OSwxMTQ0NzM2Mzg3LDgyNT
 M3MTM4M119
 -->
