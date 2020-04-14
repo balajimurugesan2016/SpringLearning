@@ -59,7 +59,7 @@ Seats seats;
 public void Movie(){
   this.initialize()
 }
-public Movie 
+public MovieRepo set 
 }
 ```
 
@@ -190,6 +190,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIxOTc5NTQsMTE0NDczNjM4Nyw4Mj
+eyJoaXN0b3J5IjpbLTE0MzEzMjg3OTAsMTE0NDczNjM4Nyw4Mj
 UzNzEzODNdfQ==
 -->
