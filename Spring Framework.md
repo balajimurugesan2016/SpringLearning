@@ -112,12 +112,17 @@ public Movie createSeats{
 }
 ```
 ## Initializing the beans in spring 
-```
-ApplicationContext context = new ClassPathXmlApplicationContext("services.xml,)
-```
+
 ### Old Way
+```
+ApplicationContext context = new ClassPathXmlApplicationContext("services.xml,"dao.xml");
+```
+### New Way
+```
 
+ApplicationContext context = new AnnotationApplicationContext(Config.class);
 
+```
 ## Delete a file
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
@@ -241,5 +246,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzA3MzUzNiwtMTg4MDgyMzQ2OF19
+eyJoaXN0b3J5IjpbLTE5MjY5MTk1ODksLTE4ODA4MjM0NjhdfQ
+==
 -->
