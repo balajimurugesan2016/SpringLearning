@@ -111,9 +111,10 @@ public Movie createSeats{
 }
 }
 ```
-## Rename a file
+## Initializing the beans in spring 
+```
+### Old Way
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
 ## Delete a file
 
@@ -238,5 +239,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA4MjM0NjhdfQ==
+eyJoaXN0b3J5IjpbLTQ1MDEzOTU0MCwtMTg4MDgyMzQ2OF19
 -->
