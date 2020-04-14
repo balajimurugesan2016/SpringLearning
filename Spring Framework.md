@@ -52,10 +52,12 @@ public Booking createBooking{
 ```
 @RestController
 class Movie{
+@Autowired
+Booking booking;
+@Autowired
+Seats seats;
 
-
-
-
+public void 
 }
 ```
 
@@ -186,6 +188,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMyNzc4LDExNDQ3MzYzODcsODI1Mz
+eyJoaXN0b3J5IjpbOTMxOTY4ODIzLDExNDQ3MzYzODcsODI1Mz
 cxMzgzXX0=
 -->
