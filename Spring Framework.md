@@ -27,6 +27,13 @@ In short, the  `BeanFactory`  provides the configuration framework and basic fun
 
 ## Major Annotations
 **@bean**
+**@Autowired**
+**@Configuration**
+**@Component**
+**@Controller**
+**@RestController**
+**@GetMapping**
+**@Post**
 
 ## Switch to another file
 
@@ -159,5 +166,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA4MTY4OCwtMTA1OTk1MzY3N119
+eyJoaXN0b3J5IjpbLTE4NzE1MDgzODcsLTEwNTk5NTM2NzddfQ
+==
 -->
