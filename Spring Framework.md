@@ -47,7 +47,7 @@ public Booking createBooking{
 }
 ```
 ## Creating a bean in Java using Autowired
-@Autowired annot
+@Autowired annotation is applied to properties and constructor in  a class. 
 
 ## Rename a file
 
@@ -176,5 +176,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDczNjM4Nyw4MjUzNzEzODNdfQ==
+eyJoaXN0b3J5IjpbLTIwODM5MDA2MDQsMTE0NDczNjM4Nyw4Mj
+UzNzEzODNdfQ==
 -->
