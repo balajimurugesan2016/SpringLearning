@@ -56,8 +56,10 @@ class Movie{
 Booking booking;
 @Autowired
 Seats seats;
-
-public void 
+public void Movie(){
+  this.initialize()
+}
+public Movie 
 }
 ```
 
@@ -188,6 +190,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxOTY4ODIzLDExNDQ3MzYzODcsODI1Mz
-cxMzgzXX0=
+eyJoaXN0b3J5IjpbLTEwODIxOTc5NTQsMTE0NDczNjM4Nyw4Mj
+UzNzEzODNdfQ==
 -->
