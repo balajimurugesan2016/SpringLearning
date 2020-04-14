@@ -90,8 +90,27 @@ public Movie createSeats{
 ```
 ## @Import annotation
 This annotation helps to import additional configuration classes to the main configuration class. if those classes are separated by code. 
+```
+@Configuration
+@import("dao_configuration", "security_configuration")
+class main_config_class{
+@Bean
+@Dependson("createmovie", "createseats")
+public Booking createBooking{
+  return new Booking(movie);
+}
 
+@Bean(name = "createmovie")
+public Movie createMovie{
+  return new Movie();
+}
 
+@Bean(name = "createseats")
+public Movie createSeats{
+  return new Seat();
+}
+}
+```
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -219,6 +238,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg0ODk1MywxMTQ0NzM2Mzg3LDgyNT
-M3MTM4M119
+eyJoaXN0b3J5IjpbLTE4ODA4MjM0NjhdfQ==
 -->
