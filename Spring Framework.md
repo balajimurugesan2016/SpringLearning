@@ -124,8 +124,10 @@ ApplicationContext context = new AnnotationApplicationContext(Config.class);
 **Annotation configuration application context forms an umbrella on top of the bean factory and converts the application as an enterprise application**
 
 ## Manual Instantiation
+
 ```
-Movies mv = context.getBean("
+Movies mv = context.getBean(Movies.class);
+movies booking = context.getBean(Booking.class);
 ```
 ## Delete a file
 
@@ -250,6 +252,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTgwOTg5NzQsLTE4ODA4MjM0NjhdfQ
-==
+eyJoaXN0b3J5IjpbLTMyOTk3MDkyLC0xODgwODIzNDY4XX0=
 -->
