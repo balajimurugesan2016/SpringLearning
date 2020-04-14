@@ -33,7 +33,7 @@ In short, the  `BeanFactory`  provides the configuration framework and basic fun
 **@Controller**
 **@RestController**
 **@GetMapping**
-**@Post**
+**@PostMapping**
 
 ## Switch to another file
 
@@ -166,6 +166,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE1MDgzODcsLTEwNTk5NTM2NzddfQ
-==
+eyJoaXN0b3J5IjpbODI1MzcxMzgzXX0=
 -->
