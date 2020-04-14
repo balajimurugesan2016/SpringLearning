@@ -47,7 +47,16 @@ public Booking createBooking{
 }
 ```
 ## Creating a bean in Java using Autowired
-@Autowired annotation is applied to properties and constructor in  a class. 
+@Autowired annotation is applied to properties and constructor in  a class. Spring creates a bean for the autowired property
+
+```
+@RestController
+class Movie{
+
+
+
+}
+```
 
 ## Rename a file
 
@@ -176,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM5MDA2MDQsMTE0NDczNjM4Nyw4Mj
-UzNzEzODNdfQ==
+eyJoaXN0b3J5IjpbNDA5MjkzNjA0LDExNDQ3MzYzODcsODI1Mz
+cxMzgzXX0=
 -->
