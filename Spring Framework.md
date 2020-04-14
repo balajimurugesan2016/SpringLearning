@@ -71,17 +71,20 @@ This annotation helps to determine the order in which the bean needs to be insta
 @Configuration
 class main_config_class{
 @Bean
-@Dependson
+@Dependson("createmovie", "createseats")
 public Booking createBooking{
   return new Booking(movie);
 }
+
+@Bean(name = "createmovie")
 public Movie createMovie{
   return new Movie();
 }
-public Movie createSeats{
-  return new MSear();
-}
 
+@Bean(name = "createseats")
+public Movie createSeats{
+  return new Seat();
+}
 }
 ```
 
@@ -212,6 +215,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDQ2NjYzMSwxMTQ0NzM2Mzg3LDgyNT
-M3MTM4M119
+eyJoaXN0b3J5IjpbMzM0NjY1ODI5LDExNDQ3MzYzODcsODI1Mz
+cxMzgzXX0=
 -->
