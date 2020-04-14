@@ -35,9 +35,8 @@ In short, the  `BeanFactory`  provides the configuration framework and basic fun
 **@GetMapping**
 **@PostMapping**
 
-## Switch to another file
+## Creating a bean in Java
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
 ## Rename a file
 
@@ -166,5 +165,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MzcxMzgzXX0=
+eyJoaXN0b3J5IjpbMTc3Mzg2NDk5Niw4MjUzNzEzODNdfQ==
 -->
