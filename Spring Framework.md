@@ -124,8 +124,11 @@ ApplicationContext context = new AnnotationApplicationContext(Config.class);
 **Annotation configuration application context forms an umbrella on top of the bean factory and converts the application as an enterprise application**
 
 ## Manual Instantiation
-
+For a basic command line application in spring, the following lines are helpful to register and getbean in a spring context. 
 ```
+ApplicationContext context = new AnnotationApplicationContext(Config.class);
+context.register(Movies.class);
+context.register(Booking.class);
 Movies mv = context.getBean(Movies.class);
 movies booking = context.getBean(Booking.class);
 ```
@@ -252,6 +255,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTk3MDkyLDExNDQ3MzYzODcsODI1Mz
-cxMzgzXX0=
+eyJoaXN0b3J5IjpbMTI1MjQzMDQ1NiwxMTQ0NzM2Mzg3LDgyNT
+M3MTM4M119
 -->
