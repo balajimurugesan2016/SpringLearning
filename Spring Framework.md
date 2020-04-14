@@ -66,6 +66,7 @@ public ArrayList<MovieRepo> setMovieinBatch(){
 }
 ```
 ## @Dependson annotation
+
 This annotation helps to determine the order in which the bean needs to be instantiated.
 ```
 @Configuration
@@ -87,6 +88,9 @@ public Movie createSeats{
 }
 }
 ```
+## @Import annotation
+This annotation helps to import additional configuration classes to the main configuration class. if those classes are separated by code. 
+
 
 ## Rename a file
 
@@ -215,6 +219,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NjY1ODI5LDExNDQ3MzYzODcsODI1Mz
-cxMzgzXX0=
+eyJoaXN0b3J5IjpbLTE5OTg0ODk1MywxMTQ0NzM2Mzg3LDgyNT
+M3MTM4M119
 -->
