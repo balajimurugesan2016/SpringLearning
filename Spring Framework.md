@@ -344,9 +344,9 @@ Inner beans can be injected inside the bean class using the @bean annotation.  I
 ## Bean Scopes
 
 Major Bean scopes are limited to 
-***Singleton***
-***Prototype***
-***Session-Scoped***
+***Singleton*** ,
+***Prototype***,
+***Session-Scoped***,
 
 Singleton:
 Whenever a bean is being instantiated for in the spring context, a single instance if the bean is generated. 
@@ -370,5 +370,5 @@ Emblem emblem;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODk0MTI4MV19
+eyJoaXN0b3J5IjpbNDM5NDcyNjczXX0=
 -->
