@@ -192,6 +192,17 @@ My bean destroyed
 All resources closed
 
 ```
+This issues following output when executed for a scope
+** Prototype**
+```
+Bean instantiated
+My bean called
+1640296160
+1640296160
+My bean destroyed
+All resources closed
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNjYzNjgyXX0=
+eyJoaXN0b3J5IjpbLTg3NDg0NTc4Myw4NjI2NjM2ODJdfQ==
 -->
