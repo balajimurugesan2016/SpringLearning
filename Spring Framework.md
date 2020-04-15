@@ -271,12 +271,21 @@ class DiscountConfiguration{
 
 public MainDiscount createDiscount(){
 
-return new discountConfiguration();
+return new DiscountConfiguration();
 }
 }
 
+package com.company.configuration
+
+class DiscountConfiguration implements MainDiscount{
+
+
+
 package com.company.configure.discount;
-Interface MainDo
+Interface MainDiscount{
+.......(Methods and attributes for discount configuration )
+}
+
 class SummerDiscount{
 MainDiscount maindisc;
 
@@ -292,7 +301,7 @@ In this example the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU3MjM5NjYsNTMxOTMxNTEzLDEzMj
-QzNTM1MDEsMTY5NzIwMDg4NiwtOTk5MDYzMDcsMjIxMzAzMTc1
-LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
+eyJoaXN0b3J5IjpbLTQ4OTg0OTQ5Nyw1MzE5MzE1MTMsMTMyND
+M1MzUwMSwxNjk3MjAwODg2LC05OTkwNjMwNywyMjEzMDMxNzUs
+MTE0NDczNjM4Nyw4MjUzNzEzODNdfQ==
 -->
