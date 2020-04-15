@@ -258,8 +258,9 @@ A child bean definition inherits configuration data from a parent definition. Th
 
 Spring Bean definition inheritance has nothing to do with Java class inheritance but the inheritance concept is same. You can define a parent bean definition as a template and other child beans can inherit the required configuration from the parent bean.
 
-## Constructor based 
+## Constructor based dependency injection
+Constructor-based DI is accomplished when the container invokes a class constructor with a number of arguments, each representing a dependency on the other class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTc5ODIxOCwxMzI0MzUzNTAxLDE2OT
-cyMDA4ODZdfQ==
+eyJoaXN0b3J5IjpbNTMxOTMxNTEzLDEzMjQzNTM1MDEsMTY5Nz
+IwMDg4Nl19
 -->
