@@ -276,18 +276,22 @@ return new discountConfiguration();
 }
 
 package com.company.configure.discount;
+Interface MainDiscou
 class SummerDiscount{
 MainDiscount maindisc;
 
-public String SummerDiscount(MainDiscount main
-
-
+@Autowired
+public String SummerDiscount(MainDiscount maindisc){
+this.maindisc = maindisc;
+}
 }
 
 ```
 
+In this example the 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMTA0OTExLDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4MjQ5NDI2MDYsNTMxOTMxNTEzLDEzMj
+QzNTM1MDEsMTY5NzIwMDg4Nl19
 -->
