@@ -263,6 +263,8 @@ Constructor-based DI is accomplished when the container invokes a class construc
 
 This after spring 3.1 is achieved via the **@Autowired** annotation
 
+In this example the  MainDiscount configuration class type is passed as an constructor argument to SummerDiscount constructor . The instantiation of the class is handled by the spring container using the @Autowired annotation as shown. 
+
 ```
 package org.company.discounts
 @Configuration
@@ -297,11 +299,11 @@ this.maindisc = maindisc;
 
 ```
 
-In this example the  MainDiscount configuration class type is passed as an constructor argument to SummerDiscount constructor . The instantiation of the class is handled by the spring container. 
+## Field based dependency injection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMxNDU1NTEsNTMxOTMxNTEzLDEzMj
+eyJoaXN0b3J5IjpbLTE2NDc2Mjg2ODUsNTMxOTMxNTEzLDEzMj
 QzNTM1MDEsMTY5NzIwMDg4NiwtOTk5MDYzMDcsMjIxMzAzMTc1
 LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
 -->
