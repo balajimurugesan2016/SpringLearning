@@ -367,8 +367,3 @@ Emblem emblem;
 
    
 
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NDcyNjczXX0=
--->
