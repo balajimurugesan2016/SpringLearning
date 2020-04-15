@@ -182,11 +182,10 @@ AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
  ctx.close();
 ```
 This issues following output when executed for a singleton scope
-
+** Singleton**
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDQxODMxNSwyMjEzMDMxNzUsNzM3Nj
-kwNjk4XX0=
+eyJoaXN0b3J5IjpbLTE4NjI4NzY4OTZdfQ==
 -->
