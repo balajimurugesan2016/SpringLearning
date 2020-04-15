@@ -212,7 +212,21 @@ You can configure multiple BeanPostProcessor interfaces and you can control the 
 The BeanPostProcessors operate on bean (or object) instances, which means that the Spring IoC container instantiates a bean instance and then BeanPostProcessor interfaces do their work.
 
 An  **ApplicationContext**  automatically detects any beans that are defined with the implementation of the  **BeanPostProcessor**  interface and registers these beans as postprocessors, to be then called appropriately by the container upon bean creation.
+
+```
+import org.springframework.beans.factory.config.BeanPostProcessor;  import org.springframework.beans.BeansException; 
+
+public  class  InitHelloWorld  implements  BeanPostProcessor  {  
+public  Object postProcessBeforeInitialization(Object bean,  String beanName)  
+throws  BeansException  
+{  
+System.out.println("BeforeInitialization : "  + beanName);  return bean;  // you can return any other object as well  
+} 
+
+ public  Object postProcessAfterInitialization(Object bean,  String beanName)  throws  BeansException  {  System.out.println("AfterInitialization : "  + beanName);  return bean;  // you can return any other object as well  }  }
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMzk4MTMzLC05OTkwNjMwNywyMjEzMD
-MxNzUsMTE0NDczNjM4Nyw4MjUzNzEzODNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTU5NDM2MiwtOTk5MDYzMDcsMjIxMz
+AzMTc1LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
 -->
