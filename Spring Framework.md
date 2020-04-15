@@ -133,8 +133,10 @@ context.register(Movies.class);
 context.register(Booking.class);
 Movies mv = context.getBean(Movies.class);
 movies booking = context.getBean(Booking.class);
+
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NjkwNjk4XX0=
+eyJoaXN0b3J5IjpbLTExNjY1NDg5ODIsNzM3NjkwNjk4XX0=
 -->
