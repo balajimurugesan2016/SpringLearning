@@ -258,8 +258,9 @@ A child bean definition inherits configuration data from a parent definition. Th
 
 Spring Bean definition inheritance has nothing to do with Java class inheritance but the inheritance concept is same. You can define a parent bean definition as a template and other child beans can inherit the required configuration from the parent bean.
 
+## Constru
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDM1MzUwMSwxNjk3MjAwODg2LC05OT
-kwNjMwNywyMjEzMDMxNzUsMTE0NDczNjM4Nyw4MjUzNzEzODNd
-fQ==
+eyJoaXN0b3J5IjpbLTExODcwNTA4MywxMzI0MzUzNTAxLDE2OT
+cyMDA4ODYsLTk5OTA2MzA3LDIyMTMwMzE3NSwxMTQ0NzM2Mzg3
+LDgyNTM3MTM4M119
 -->
