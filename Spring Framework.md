@@ -344,10 +344,13 @@ Inner beans can be injected inside the bean class using the @bean annotation.  I
 ## Bean Scopes
 
 Major Bean scopes are limited to 
-Singleton
-Prototype
+***Singleton***
+***Prototype***
+***Session-Scoped***
 
+Singleton:
+Whenever a bean is being instantiated for in the spring context, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzk1NDg0NSwtMzcyMDc4MTk0XX0=
+eyJoaXN0b3J5IjpbLTg1NTc2NjEyNiwtMzcyMDc4MTk0XX0=
 -->
