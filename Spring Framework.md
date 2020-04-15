@@ -167,7 +167,9 @@ logger.info("All resources closed");
 }
 }
 ```
+Explanation:
+The class MyBean contains methods such as init and destroy which are annota
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjcxOTAxNiwyMjEzMDMxNzUsNzM3Nj
-kwNjk4XX0=
+eyJoaXN0b3J5IjpbLTIwMzIxMjc5NjksMjIxMzAzMTc1LDczNz
+Y5MDY5OF19
 -->
