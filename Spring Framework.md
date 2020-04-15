@@ -343,6 +343,5 @@ Inner beans can be injected inside the bean class using the @bean annotation.  I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjA3ODE5NCwxNDQxNDE0MDEzLC0xMz
-I2NjU5NjYwXX0=
+eyJoaXN0b3J5IjpbLTM3MjA3ODE5NF19
 -->
