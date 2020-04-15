@@ -338,8 +338,8 @@ this.maindisc = maindisc;
 }
 
 ```
-## Injecting inner beans 
+## Injecting inner beans - Light beans
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIxNzE2NzIsODg3NDk1MjAsNTMxOT
-MxNTEzLDEzMjQzNTM1MDEsMTY5NzIwMDg4Nl19
+eyJoaXN0b3J5IjpbLTEzMjY2NTk2NjBdfQ==
 -->
