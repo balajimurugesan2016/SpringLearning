@@ -138,8 +138,8 @@ movies booking = context.getBean(Booking.class);
 
 ## Bean Lifecycle
 
-
+Spring bean lifecycle is controlled by few call back methods which are invoked 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTk0MjIxNiwyMjEzMDMxNzUsMTE0ND
+eyJoaXN0b3J5IjpbMTIyNzE1MDI0MiwyMjEzMDMxNzUsMTE0ND
 czNjM4Nyw4MjUzNzEzODNdfQ==
 -->
