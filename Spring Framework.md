@@ -349,8 +349,14 @@ Major Bean scopes are limited to
 ***Session-Scoped***
 
 Singleton:
-Whenever a bean is being instantiated for in the spring context, 
+Whenever a bean is being instantiated for in the spring context, a single instance if the bean is generated. 
+
+Prototype:
+Whenever a bean is being instantiated for in the spring context, a different instances of the bean is generated for every call. 
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTc2NjEyNiwtMzcyMDc4MTk0XX0=
+eyJoaXN0b3J5IjpbLTcwMTI3Nzc4MSwtMzcyMDc4MTk0XX0=
 -->
