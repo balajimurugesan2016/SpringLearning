@@ -150,11 +150,15 @@ The working of this annotations can be understood from an example.
 @bean
 public class<T> my_bean{
 
-p
+@PostConstruct
+public method init(){
+logger.log(
+}
+
 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1Mjc0MjEsMjIxMzAzMTc1LDczNzY5MD
-Y5OF19
+eyJoaXN0b3J5IjpbLTE2NjExMzE1NDUsMjIxMzAzMTc1LDczNz
+Y5MDY5OF19
 -->
