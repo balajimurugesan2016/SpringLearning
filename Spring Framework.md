@@ -356,11 +356,13 @@ Whenever a bean is being instantiated for in the spring context, a different ins
 
 In any scenario use the annotation @Lookup for generating a prototype bean for every instance call. 
 ```
-
+@Autowired
+Emblem emblem;
 @Lookup
     public Emblem getEmblemProtoBean() {
         return null;
     }
+
 ```
 
    
@@ -368,8 +370,8 @@ In any scenario use the annotation @Lookup for generating a prototype bean for e
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyOTU4NjM4LDE0NDE0MTQwMTMsLTEzMj
-Y2NTk2NjAsODg3NDk1MjAsLTE2NDc2Mjg2ODUsNTMxOTMxNTEz
-LDEzMjQzNTM1MDEsMTY5NzIwMDg4NiwtOTk5MDYzMDcsMjIxMz
-AzMTc1LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
+eyJoaXN0b3J5IjpbLTYzODk0MTI4MSwxNDQxNDE0MDEzLC0xMz
+I2NjU5NjYwLDg4NzQ5NTIwLC0xNjQ3NjI4Njg1LDUzMTkzMTUx
+MywxMzI0MzUzNTAxLDE2OTcyMDA4ODYsLTk5OTA2MzA3LDIyMT
+MwMzE3NSwxMTQ0NzM2Mzg3LDgyNTM3MTM4M119
 -->
