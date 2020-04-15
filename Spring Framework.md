@@ -264,9 +264,13 @@ Constructor-based DI is accomplished when the container invokes a class construc
 This after spring 3.1 is achieved via the **@Autowired** annotation
 
 ```
+package org.company.discounts
+@configuration
+@ComponentScan(value={"com.company.configure.discount
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NTg0MjQ3LDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODYsLTk5OTA2MzA3LDIyMTMwMzE3NSwx
-MTQ0NzM2Mzg3LDgyNTM3MTM4M119
+eyJoaXN0b3J5IjpbLTI4NzQ2MzkwNCw1MzE5MzE1MTMsMTMyND
+M1MzUwMSwxNjk3MjAwODg2LC05OTkwNjMwNywyMjEzMDMxNzUs
+MTE0NDczNjM4Nyw4MjUzNzEzODNdfQ==
 -->
