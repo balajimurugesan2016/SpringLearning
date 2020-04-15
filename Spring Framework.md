@@ -234,8 +234,23 @@ System.out.println("BeforeInitialization : "  + beanName);  return bean;  // you
 
 using the bean **postprocessor** class in configuration
 ```
-class SprinfConfi
+@Configuration
+class SpringConfig{
+@Bean
+public Booking createBooking(){
+return new Booking();
+}
+
+@Bean
+public HelloW
+{
+
+
+}
+
+}
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM3OTIyMTUsLTk5OTA2MzA3XX0=
+eyJoaXN0b3J5IjpbLTEwMDE2MDE1NDAsLTk5OTA2MzA3XX0=
 -->
