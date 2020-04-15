@@ -182,11 +182,13 @@ AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
  ctx.close();
 ```
 This issues following output when executed for a singleton scope
-
+** Singleton**
 ```
+Bean instantiated
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDQxODMxNSwyMjEzMDMxNzUsMTE0ND
+eyJoaXN0b3J5IjpbMjEzNTc4MjUzNCwyMjEzMDMxNzUsMTE0ND
 czNjM4Nyw4MjUzNzEzODNdfQ==
 -->
