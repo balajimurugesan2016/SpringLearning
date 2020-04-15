@@ -138,8 +138,12 @@ movies booking = context.getBean(Booking.class);
 
 ## Bean Lifecycle
 
-Spring bean life cycle is controlled by few call back methods which are invoked when the spring container is initialized or the when the bean is beginning to be used in case of laz
+Spring bean life cycle is controlled by few call back methods which are invoked when the spring container is initialized or the when the bean is beginning to be used in case of lazy initialization of a bean
+
+The following annotations after spring 3.1 is of use today. 
+**@PostConstruct** --- Init method
+**@PreDestroy** --
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1OTUxMDE1LDIyMTMwMzE3NSwxMTQ0Nz
+eyJoaXN0b3J5IjpbMzgxMTA2NzE0LDIyMTMwMzE3NSwxMTQ0Nz
 M2Mzg3LDgyNTM3MTM4M119
 -->
