@@ -261,8 +261,12 @@ Spring Bean definition inheritance has nothing to do with Java class inheritance
 ## Constructor based dependency injection
 Constructor-based DI is accomplished when the container invokes a class constructor with a number of arguments, each representing a dependency on the other class.
 
-Thi
+This after spring 3.1 is achieved via the **@Autowired** annotation
+
+```
+pach
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjEwOTY1NCw1MzE5MzE1MTMsMTMyND
+eyJoaXN0b3J5IjpbMTg4NTY4MTAyOSw1MzE5MzE1MTMsMTMyND
 M1MzUwMSwxNjk3MjAwODg2XX0=
 -->
