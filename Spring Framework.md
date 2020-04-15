@@ -302,9 +302,42 @@ this.maindisc = maindisc;
 ## Field based dependency injection
 Field-based DI is accomplished when the container invokes the dependency mentioned in the field level as shown
 
+```
+package org.company.discounts
+@Configuration
+@ComponentScan(value={"com.company.configure.discount"})
+class DiscountConfiguration{
 
+public MainDiscount createDiscount(){
+
+return new DiscountConfiguration();
+}
+}
+
+package com.company.configuration
+
+class DiscountConfiguration implements MainDiscount{
+.........
+}
+
+package com.company.configure.discount;
+Interface MainDiscount{
+.......(Methods and attributes for discount configuration )
+}
+
+class SummerDiscount{
+@Autowired
+MainDiscount maindisc;
+
+
+public String SummerDiscount(MainDiscount maindisc){
+this.maindisc = maindisc;
+}
+}
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwOTI3Mzk5LDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODZdfQ==
+eyJoaXN0b3J5IjpbODg3NDk1MjAsNTMxOTMxNTEzLDEzMjQzNT
+M1MDEsMTY5NzIwMDg4Nl19
 -->
