@@ -271,10 +271,15 @@ class discount_configuration{
 
 public MainDiscount createDiscount(){
 
+return new discountConfiguration();
+}
+
 
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTY0OTY2Miw1MzE5MzE1MTMsMTMyND
-M1MzUwMSwxNjk3MjAwODg2XX0=
+eyJoaXN0b3J5IjpbLTIxMTc3OTYxOTIsNTMxOTMxNTEzLDEzMj
+QzNTM1MDEsMTY5NzIwMDg4Nl19
 -->
