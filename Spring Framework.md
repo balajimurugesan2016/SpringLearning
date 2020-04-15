@@ -250,6 +250,9 @@ return new InitHelloWorld();
 }
 
 ```
+
+## Bean definition  Inheritance
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzIwMDg4Nl19
+eyJoaXN0b3J5IjpbMzU5MjgzMTc3LDE2OTcyMDA4ODZdfQ==
 -->
