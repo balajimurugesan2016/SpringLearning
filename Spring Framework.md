@@ -159,6 +159,8 @@ logger.info("Bean instantiated");
 public void MyBean(){
 logger.info("My bean called");
 } 
+
+@PreDestroy
 public void destroy(){
 logger.info("My bean destroyed");
 } 
@@ -168,8 +170,8 @@ logger.info("All resources closed");
 }
 ```
 Explanation:
-The class MyBean contains methods such as init and destroy which are annota
+The class MyBean contains methods such as init and destroy which are annotated as @PostConstruct and @PreDestroy. The postconstruct method is called when the bean is initialized for the first time and predestroy method is called when the bean is closed. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzIxMjc5NjksMjIxMzAzMTc1LDczNz
-Y5MDY5OF19
+eyJoaXN0b3J5IjpbMTE1NDU5NDU5LDIyMTMwMzE3NSw3Mzc2OT
+A2OThdfQ==
 -->
