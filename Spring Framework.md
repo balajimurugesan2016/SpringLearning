@@ -276,12 +276,18 @@ return new discountConfiguration();
 }
 
 package com.company.configure.discount;
-class 
+class SummerDiscount{
+MainDiscount maindisc;
+
+public String SummerDiscount(MainDiscount main
+
+
+}
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ1ODU3Nyw1MzE5MzE1MTMsMTMyND
-M1MzUwMSwxNjk3MjAwODg2XX0=
+eyJoaXN0b3J5IjpbNzMzMTA0OTExLDUzMTkzMTUxMywxMzI0Mz
+UzNTAxLDE2OTcyMDA4ODZdfQ==
 -->
