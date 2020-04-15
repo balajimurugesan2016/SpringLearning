@@ -142,8 +142,19 @@ Spring bean life cycle is controlled by few call back methods which are invoked 
 
 The following annotations after spring 3.1 is of use today. 
 **@PostConstruct** --- Init method
-**@PreDestroy** --- Destrou
+**@PreDestroy** --- Destroy/Shutdown method
+
+The working of this annotations can be understood from an example. 
+
+```
+@bean
+public class<T> my_bean{
+
+p
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MzAzNDc5LDIyMTMwMzE3NSw3Mzc2OT
-A2OThdfQ==
+eyJoaXN0b3J5IjpbODI1Mjc0MjEsMjIxMzAzMTc1LDczNzY5MD
+Y5OF19
 -->
