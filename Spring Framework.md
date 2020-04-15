@@ -252,9 +252,14 @@ return new InitHelloWorld();
 ```
 
 ## Bean definition  Inheritance
+A bean definition can contain a lot of configuration information, including constructor arguments, property values, and container-specific information such as initialization method, static factory method name, and so on.
+
+A child bean definition inherits configuration data from a parent definition. The child definition can override some values, or add others, as needed.
+
+Spring Bean definition inheritance has nothing to do with Java class inheritance but the inheritance concept is same. You can define a parent bean definition as a template and other child beans can inherit the required configuration from the parent bean.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MjgzMTc3LDE2OTcyMDA4ODYsLTk5OT
-A2MzA3LDIyMTMwMzE3NSwxMTQ0NzM2Mzg3LDgyNTM3MTM4M119
-
+eyJoaXN0b3J5IjpbMTMyNDM1MzUwMSwxNjk3MjAwODg2LC05OT
+kwNjMwNywyMjEzMDMxNzUsMTE0NDczNjM4Nyw4MjUzNzEzODNd
+fQ==
 -->
