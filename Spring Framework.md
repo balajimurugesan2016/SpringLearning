@@ -241,16 +241,15 @@ public Booking createBooking(){
 return new Booking();
 }
 
-@Bean
-public HelloW
+@Bean(
+public InitHelloWorld inithello()
 {
-
-
+return new InitHelloWorld();
 }
 
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE2MDE1NDAsLTk5OTA2MzA3XX0=
+eyJoaXN0b3J5IjpbMTkzMDc4NzE0MCwtOTk5MDYzMDddfQ==
 -->
