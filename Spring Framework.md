@@ -339,10 +339,12 @@ this.maindisc = maindisc;
 
 ```
 ## Injecting inner beans - Light beans
+Inner beans can be injected inside the bean class using the @bean annotation.  Inner beans work in a lite mode compare to the regular functionality offered by the general spring beans.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY2NTk2NjAsODg3NDk1MjAsLTE2ND
-c2Mjg2ODUsNTMxOTMxNTEzLDEzMjQzNTM1MDEsMTY5NzIwMDg4
-NiwtOTk5MDYzMDcsMjIxMzAzMTc1LDExNDQ3MzYzODcsODI1Mz
-cxMzgzXX0=
+eyJoaXN0b3J5IjpbMTQ0MTQxNDAxMywtMTMyNjY1OTY2MCw4OD
+c0OTUyMCwtMTY0NzYyODY4NSw1MzE5MzE1MTMsMTMyNDM1MzUw
+MSwxNjk3MjAwODg2LC05OTkwNjMwNywyMjEzMDMxNzUsMTE0ND
+czNjM4Nyw4MjUzNzEzODNdfQ==
 -->
