@@ -223,10 +223,20 @@ throws  BeansException
 System.out.println("BeforeInitialization : "  + beanName);  return bean;  // you can return any other object as well  
 } 
 
- public  Object postProcessAfterInitialization(Object bean,  String beanName)  throws  BeansException  {  System.out.println("AfterInitialization : "  + beanName);  return bean;  // you can return any other object as well  }  }
+ public  Object postProcessAfterInitialization(Object bean,  String beanName)  
+ throws  BeansException  
+{ 
+ System.out.println("AfterInitialization : "  + beanName);  return bean;  // you can return any other object as well  
+ }  
+ }
 
 ```
+
+using the bean **postprocessor** class in configuration
+```
+cla
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU5NDM2MiwtOTk5MDYzMDcsMjIxMz
+eyJoaXN0b3J5IjpbLTM0MzUwODgxNiwtOTk5MDYzMDcsMjIxMz
 AzMTc1LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
 -->
