@@ -300,9 +300,9 @@ this.maindisc = maindisc;
 ```
 
 ## Field based dependency injection
-
+Constructor-based DI is accomplished when the container invokes a class constructor with a number of arguments, each representing a dependency on the other class.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc2Mjg2ODUsNTMxOTMxNTEzLDEzMj
-QzNTM1MDEsMTY5NzIwMDg4Nl19
+eyJoaXN0b3J5IjpbMTk3MzgwMTg2Niw1MzE5MzE1MTMsMTMyND
+M1MzUwMSwxNjk3MjAwODg2XX0=
 -->
