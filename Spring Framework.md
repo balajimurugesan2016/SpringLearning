@@ -147,18 +147,20 @@ The following annotations after spring 3.1 is of use today.
 The working of this annotations can be understood from an example. 
 
 ```
-@bean
-public class<T> my_bean{
+@ean
+public class<T> MyBean{
+Logger logger = LoggerFactory.getLogger(my_bean.class);
 
 @PostConstruct
 public method init(){
-logger.log(
+logger.info("Bean instantiated");
 }
+MyBean 
 
 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMzE1NDUsMjIxMzAzMTc1LDczNz
-Y5MDY5OF19
+eyJoaXN0b3J5IjpbLTIwMjYxMDgzNCwyMjEzMDMxNzUsNzM3Nj
+kwNjk4XX0=
 -->
