@@ -147,7 +147,7 @@ The following annotations after spring 3.1 is of use today.
 The working of this annotations can be understood from an example. 
 
 ```
-@ean
+@Bean
 public class<T> MyBean{
 Logger logger = LoggerFactory.getLogger(my_bean.class);
 
@@ -155,12 +155,16 @@ Logger logger = LoggerFactory.getLogger(my_bean.class);
 public method init(){
 logger.info("Bean instantiated");
 }
-MyBean 
 
-
+public void MyBean(){
+logger.info("My bean called");
+} 
+public void MyBean(){
+logger.info("My bean called");
+} 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYxMDgzNCwyMjEzMDMxNzUsNzM3Nj
-kwNjk4XX0=
+eyJoaXN0b3J5IjpbODM0NjE2MzQwLDIyMTMwMzE3NSw3Mzc2OT
+A2OThdfQ==
 -->
