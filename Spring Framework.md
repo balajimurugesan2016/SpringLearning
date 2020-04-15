@@ -115,7 +115,7 @@ public Movie createSeats{
 
 ## Initializing the beans in spring 
 
-### Old Way
+### Old Way( Before Spring 3.1 )
 ```
 ApplicationContext context = new ClassPathXmlApplicationContext("services.xml,"dao.xml");
 ```
@@ -136,9 +136,10 @@ movies booking = context.getBean(Booking.class);
 
 ```
 
+## Bean Lifecycle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMzAzMTc1LDExNDQ3MzYzODcsODI1Mz
-cxMzgzXX0=
+eyJoaXN0b3J5IjpbMjAyMTk0MjIxNiwyMjEzMDMxNzUsMTE0ND
+czNjM4Nyw4MjUzNzEzODNdfQ==
 -->
