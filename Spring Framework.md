@@ -300,8 +300,10 @@ this.maindisc = maindisc;
 ```
 
 ## Field based dependency injection
+
 Field-based DI is accomplished when the container invokes the dependency mentioned in the field level as shown
 
+In this example the  MainDiscount configuration class type is passed as an constructor argument to SummerDiscount constructor . The instantiation of the class is handled by the spring container using the @Autowired annotation as shown. 
 ```
 package org.company.discounts
 @Configuration
@@ -336,8 +338,8 @@ this.maindisc = maindisc;
 }
 
 ```
-
+## Injecting inner beans 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NDk1MjAsNTMxOTMxNTEzLDEzMjQzNT
-M1MDEsMTY5NzIwMDg4Nl19
+eyJoaXN0b3J5IjpbLTEwNzIxNzE2NzIsODg3NDk1MjAsNTMxOT
+MxNTEzLDEzMjQzNTM1MDEsMTY5NzIwMDg4Nl19
 -->
