@@ -167,7 +167,9 @@ logger.info("All resources closed");
 }
 }
 ```
+Explanation:
+The class MyBean contains methods such as init and destroy which 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjcxOTAxNiwyMjEzMDMxNzUsMTE0ND
+eyJoaXN0b3J5IjpbMTA3OTU4NzIzOCwyMjEzMDMxNzUsMTE0ND
 czNjM4Nyw4MjUzNzEzODNdfQ==
 -->
