@@ -148,17 +148,19 @@ The working of this annotations can be understood from an example.
 
 ```
 @bean
-public class<T> my_bean{
+public class<T> MyBean{
+Logger logger = LoggerFactory.getLogger(my_bean.class);
 
 @PostConstruct
 public method init(){
-logger.log(
+logger.info("Bean instantiated");
 }
+MyBean 
 
 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMzE1NDUsMjIxMzAzMTc1LDExND
-Q3MzYzODcsODI1MzcxMzgzXX0=
+eyJoaXN0b3J5IjpbLTgzMDg4NTkwLDIyMTMwMzE3NSwxMTQ0Nz
+M2Mzg3LDgyNTM3MTM4M119
 -->
