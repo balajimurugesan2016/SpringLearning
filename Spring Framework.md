@@ -278,7 +278,7 @@ return new DiscountConfiguration();
 package com.company.configuration
 
 class DiscountConfiguration implements MainDiscount{
-.
+.........
 }
 
 package com.company.configure.discount;
@@ -297,10 +297,10 @@ this.maindisc = maindisc;
 
 ```
 
-In this example the 
+In this example the  MainDiscount configuration class type is passed as an constructor argument to SummerDiscount constructor . The instantiation of the class is handled by the spring container. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTMyNDM0LDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjMxNDU1NTEsNTMxOTMxNTEzLDEzMj
+QzNTM1MDEsMTY5NzIwMDg4Nl19
 -->
