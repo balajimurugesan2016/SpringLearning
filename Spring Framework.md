@@ -159,12 +159,15 @@ logger.info("Bean instantiated");
 public void MyBean(){
 logger.info("My bean called");
 } 
-public void MyBean(){
-logger.info("My bean called");
+public void destroy(){
+logger.info("My bean destroyed");
 } 
+public void close(){
+logger.info("All resources closed");
+}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NjE2MzQwLDIyMTMwMzE3NSw3Mzc2OT
-A2OThdfQ==
+eyJoaXN0b3J5IjpbMTQxNjcxOTAxNiwyMjEzMDMxNzUsNzM3Nj
+kwNjk4XX0=
 -->
