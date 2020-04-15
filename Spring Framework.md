@@ -267,10 +267,14 @@ This after spring 3.1 is achieved via the **@Autowired** annotation
 package org.company.discounts
 @configuration
 @ComponentScan(value={"com.company.configure.discount"})
-p
+class discount_configuration{
 
+public MainDiscount createDiscount(){
+
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDY1MDgwLDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODZdfQ==
+eyJoaXN0b3J5IjpbMTIzMTY0OTY2Miw1MzE5MzE1MTMsMTMyND
+M1MzUwMSwxNjk3MjAwODg2XX0=
 -->
