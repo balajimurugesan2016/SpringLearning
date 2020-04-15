@@ -170,8 +170,16 @@ logger.info("All resources closed");
 }
 ```
 Explanation:
-The class MyBean contains methods such as init and destroy which are annotated as @PostConstruct and @PreDestroy. The postconstruct method is called when the bean is initialized for the first time and predestroy method is called when the bean is closed. 
+The class MyBean contains methods such as init and destroy which are annotated as @PostConstruct and @PreDestroy. The postconstruct method is called when the bean is initialized for the first time and predestroy method is called when the context is closed. This can be understood from the following test case
+
+```
+AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(); ctx.register(MyConfiguration.class); ctx.refresh();
+ MyBean mb1 = ctx.getBean(MyBean.class); 
+ System.out.println(mb1.hashCode());  
+ MyBean mb2 = ctx.getBean(MyBean.class); 
+  ctx.close();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDU5NDU5LDIyMTMwMzE3NSw3Mzc2OT
-A2OThdfQ==
+eyJoaXN0b3J5IjpbMTY3ODA2Mzc0OCwyMjEzMDMxNzUsNzM3Nj
+kwNjk4XX0=
 -->
