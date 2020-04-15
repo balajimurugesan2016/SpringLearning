@@ -269,13 +269,18 @@ package org.company.discounts
 @ComponentScan(value={"com.company.configure.discount"})
 class discount_configuration{
 
-public MainDiscount createDiscoun
+public MainDiscount createDiscount(){
+
+return new discountConfiguration();
+}
 
 
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwOTQ0MzU2LDUzMTkzMTUxMywxMzI0Mz
-UzNTAxLDE2OTcyMDA4ODYsLTk5OTA2MzA3LDIyMTMwMzE3NSwx
-MTQ0NzM2Mzg3LDgyNTM3MTM4M119
+eyJoaXN0b3J5IjpbLTIxMTc3OTYxOTIsNTMxOTMxNTEzLDEzMj
+QzNTM1MDEsMTY5NzIwMDg4NiwtOTk5MDYzMDcsMjIxMzAzMTc1
+LDExNDQ3MzYzODcsODI1MzcxMzgzXX0=
 -->
