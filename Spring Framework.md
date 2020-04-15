@@ -173,13 +173,20 @@ Explanation:
 The class MyBean contains methods such as init and destroy which are annotated as @PostConstruct and @PreDestroy. The postconstruct method is called when the bean is initialized for the first time and predestroy method is called when the context is closed. This can be understood from the following test case
 
 ```
-AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(); ctx.register(MyConfiguration.class); ctx.refresh();
+AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(); ctx.register(MyConfiguration.class); 
+ ctx.refresh();
  MyBean mb1 = ctx.getBean(MyBean.class); 
  System.out.println(mb1.hashCode());  
  MyBean mb2 = ctx.getBean(MyBean.class); 
-  ctx.close();
+ System.out.println(mb2.hashCode());
+ ctx.close();
+```
+This issues following output when executed for a singleton scope
+
+```
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODA2Mzc0OCwyMjEzMDMxNzUsNzM3Nj
+eyJoaXN0b3J5IjpbMTg3MDQxODMxNSwyMjEzMDMxNzUsNzM3Nj
 kwNjk4XX0=
 -->
