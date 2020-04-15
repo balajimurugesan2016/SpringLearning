@@ -241,7 +241,7 @@ public Booking createBooking(){
 return new Booking();
 }
 
-@Bean(
+@Bean
 public InitHelloWorld inithello()
 {
 return new InitHelloWorld();
@@ -251,5 +251,5 @@ return new InitHelloWorld();
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDc4NzE0MCwtOTk5MDYzMDddfQ==
+eyJoaXN0b3J5IjpbMTY5NzIwMDg4Nl19
 -->
