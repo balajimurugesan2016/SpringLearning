@@ -186,9 +186,12 @@ This issues following output when executed for a singleton scope
 ```
 Bean instantiated
 My bean called
-
+1640296160
+1640296160
+My bean destroyed
+All resources closed
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzYyMzgyMywtMTg2Mjg3Njg5Nl19
+eyJoaXN0b3J5IjpbODYyNjYzNjgyXX0=
 -->
