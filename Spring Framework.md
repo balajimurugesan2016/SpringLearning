@@ -223,9 +223,19 @@ throws  BeansException
 System.out.println("BeforeInitialization : "  + beanName);  return bean;  // you can return any other object as well  
 } 
 
- public  Object postProcessAfterInitialization(Object bean,  String beanName)  throws  BeansException  {  System.out.println("AfterInitialization : "  + beanName);  return bean;  // you can return any other object as well  }  }
+ public  Object postProcessAfterInitialization(Object bean,  String beanName)  
+ throws  BeansException  
+{ 
+ System.out.println("AfterInitialization : "  + beanName);  return bean;  // you can return any other object as well  
+ }  
+ }
 
 ```
+
+using the bean **postprocessor** class in configuration
+```
+class SprinfConfi
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU5NDM2MiwtOTk5MDYzMDddfQ==
+eyJoaXN0b3J5IjpbLTE2MjM3OTIyMTUsLTk5OTA2MzA3XX0=
 -->
