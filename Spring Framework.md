@@ -354,9 +354,15 @@ Whenever a bean is being instantiated for in the spring context, a single instan
 Prototype:
 Whenever a bean is being instantiated for in the spring context, a different instances of the bean is generated for every call. 
 
+In any scenario use the annotation @Lookup 
+```
+@Lookup
+    public Emblem getEmblemProtoBean() {
+        return null;
+    }
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTI3Nzc4MSwtMzcyMDc4MTk0XX0=
+eyJoaXN0b3J5IjpbLTExMDczODYzNTEsLTM3MjA3ODE5NF19
 -->
