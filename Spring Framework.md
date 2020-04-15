@@ -184,8 +184,8 @@ AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
 This issues following output when executed for a singleton scope
 ** Singleton**
 ```
-Bean instantiated
 My bean called
+Bean instantiated
 1640296160
 1640296160
 My bean destroyed
@@ -195,15 +195,15 @@ All resources closed
 This issues following output when executed for a scope
 ** Prototype**
 ```
-Bean instantiated
 My bean called
+Bean instantiated
 1640296160
+My bean called
+Bean instantiated
 1640296160
-My bean destroyed
-All resources closed
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDg0NTc4MywyMjEzMDMxNzUsMTE0ND
-czNjM4Nyw4MjUzNzEzODNdfQ==
+eyJoaXN0b3J5IjpbLTk5OTA2MzA3LDIyMTMwMzE3NSwxMTQ0Nz
+M2Mzg3LDgyNTM3MTM4M119
 -->
