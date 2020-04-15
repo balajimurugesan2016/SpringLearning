@@ -365,7 +365,7 @@ Emblem emblem;
 
 ```
 
-## # @Required Annotation
+##  @Required Annotation
 The **@Required** annotation applies to bean property setter methods and it indicates that the affected bean property must be populated in XML configuration file at configuration time. Otherwise, the container throws a BeanInitializationException exception. Following is an example to show the use of @Required annotation.
 
 
@@ -375,9 +375,9 @@ If the bean is specified required. it needs instantiation during the configurati
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjA3NTMxMSw0Mzk0NzI2NzMsLTYzOD
-k0MTI4MSwxNDQxNDE0MDEzLC0xMzI2NjU5NjYwLDg4NzQ5NTIw
-LC0xNjQ3NjI4Njg1LDUzMTkzMTUxMywxMzI0MzUzNTAxLDE2OT
-cyMDA4ODYsLTk5OTA2MzA3LDIyMTMwMzE3NSwxMTQ0NzM2Mzg3
-LDgyNTM3MTM4M119
+eyJoaXN0b3J5IjpbLTE3MTQxNDk0NjAsMTk0MjA3NTMxMSw0Mz
+k0NzI2NzMsLTYzODk0MTI4MSwxNDQxNDE0MDEzLC0xMzI2NjU5
+NjYwLDg4NzQ5NTIwLC0xNjQ3NjI4Njg1LDUzMTkzMTUxMywxMz
+I0MzUzNTAxLDE2OTcyMDA4ODYsLTk5OTA2MzA3LDIyMTMwMzE3
+NSwxMTQ0NzM2Mzg3LDgyNTM3MTM4M119
 -->
