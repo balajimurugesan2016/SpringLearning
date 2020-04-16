@@ -8,7 +8,10 @@
  - Generics 
 
 ## Functional Interfaces
+_Functional interfaces_ provide target types for lambda expressions and method references.
+
+They are function with just an abstract method or an abstract meth 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTc0MTQyNywtMzA4MDY4MDExXX0=
+eyJoaXN0b3J5IjpbLTgxNTM4MTg0MCwtMzA4MDY4MDExXX0=
 -->
