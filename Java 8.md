@@ -17,7 +17,7 @@ Interface MyFnInterface{
 public abstract method apply();
 }
 ```
-## 
+## Lambda Expressions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyODYzNTQ1LC0zMDgwNjgwMTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDUzMzY5MDVdfQ==
 -->
