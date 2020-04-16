@@ -1,7 +1,7 @@
 # JAVA 8
 ## Topics
 
- - Functional Interfaces
+ - [Functional Interfaces](./Java8.md)
  - Lambda Expressions
  - Method references
  - Default keyword
@@ -19,5 +19,5 @@ public abstract method apply();
 ```
 ## Lambda Expressions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUzMzY5MDVdfQ==
+eyJoaXN0b3J5IjpbNjEzNzY0NzU0XX0=
 -->
