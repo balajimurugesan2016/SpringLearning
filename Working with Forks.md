@@ -16,10 +16,16 @@ git remote add upstream "remote Repository URL"
 
 ```
 git remote -v
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
+## In case of changes to remote repository
+1) use
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxODg1OV19
+eyJoaXN0b3J5IjpbLTk2OTY0MDk0NCw0MjE4ODU5XX0=
 -->
