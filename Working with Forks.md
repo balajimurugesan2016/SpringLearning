@@ -22,10 +22,14 @@ git remote -v
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
 ## In case of changes to remote repository
-1) use
+1) Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a local branch, `upstream/master`.
+```
+git fetch upstream
+```
+2)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTY0MDk0NCw0MjE4ODU5XX0=
+eyJoaXN0b3J5IjpbNTA3NzY3OTEzLDQyMTg4NTldfQ==
 -->
