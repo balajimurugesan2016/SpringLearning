@@ -44,12 +44,12 @@ $ git merge upstream/master
 4)  Resolve conflicts if any.
 5)  Push the final merge
 ```
-git push
+git push 
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk0Nzk4MjUsNDIxODg1OV19
+eyJoaXN0b3J5IjpbMTY3NTkxMzk3N119
 -->
