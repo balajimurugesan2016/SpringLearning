@@ -22,14 +22,18 @@ git remote -v
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
 ## In case of changes to remote repository
-1) Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a local branch, `upstream/master`.
+1) Fetch the branches and their respective commits from the upstream repository. Commits to `master` will be stored in a LR branch, `upstream/master`.
 ```
 git fetch upstream
 ```
-2)
+2) Check out your fork's LR `master` branch.
+```shell
+git checkout master
+```
+3) Merge the changes from `upstream/master` into your local `master` branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3NzY3OTEzLDQyMTg4NTldfQ==
+eyJoaXN0b3J5IjpbNTk5MTE1NTQ5LDQyMTg4NTldfQ==
 -->
