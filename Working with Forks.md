@@ -41,11 +41,15 @@ $ git merge upstream/master
 >  delete mode 100644 README
 >  create mode 100644 README.md
 ```
-4)
+4)  Resolve conflicts if any.
+5)  Push the final merge
+```
+git push
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjkyMzk2Niw0MjE4ODU5XX0=
+eyJoaXN0b3J5IjpbLTE3OTk0Nzk4MjUsNDIxODg1OV19
 -->
