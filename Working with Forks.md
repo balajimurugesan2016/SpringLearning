@@ -31,9 +31,21 @@ git fetch upstream
 git checkout master
 ```
 3) Merge the changes from `upstream/master` into your local `master` branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.
+```shell
+$ git merge upstream/master
+> Updating a422352..5fdff0f
+> Fast-forward
+>  README                    |    9 -------
+>  README.md                 |    7 ++++++
+>  2 files changed, 7 insertions(+), 9 deletions(-)
+>  delete mode 100644 README
+>  create mode 100644 README.md
+```
+4)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MTE1NTQ5LDQyMTg4NTldfQ==
+eyJoaXN0b3J5IjpbMjAxNjkyMzk2Niw0MjE4ODU5XX0=
 -->
